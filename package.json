@@ -1,0 +1,35 @@
+{
+  "name": "omni-arch-pro",
+  "version": "3.0.0",
+  "description": "Omni-Arch Pro v3.0 — Defensive Cyber Audit, Web Reverse-Engineering, Auto-Fix Patches & Web UI Dashboard",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "omni-recon": "./cli-test.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "audit": "node cli-test.js",
+    "ui": "node server-ui.js",
+    "test": "node cli-test.js example.com"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "osint",
+    "reverse-engineering",
+    "security-audit",
+    "port-scanner",
+    "subdomain-enumeration",
+    "secret-scanner",
+    "reconnaissance"
+  ],
+  "author": "Omni-Recon Team",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.5"
+  }
+}
